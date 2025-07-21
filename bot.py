@@ -38,7 +38,7 @@ async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
         )
 
         # ✅ BOTÃO com o link do grupo
-        keyboard = [[InlineKeyboardButton("🔓 Entrar no Grupo VIP🔥", url="https://t.me/+womUGDlxiLliYzkx")]]
+        keyboard = [[InlineKeyboardButton("🔓 Entrar no Grupo VIP🔥", url="https://t.me/+E_D06tNMHWs2ZWVh")]]
         reply_markup = InlineKeyboardMarkup(keyboard)
 
         await update.message.reply_text(mensagem, reply_markup=reply_markup)
